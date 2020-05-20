@@ -2,7 +2,7 @@ const unfinishedProjectsEl = document.querySelectorAll('.unfinished');
 
 unfinishedProjectsEl[0].addEventListener('click', () => {
   alert(
-    ' Project its not 100% finished, edit and delete will be added, and its not responsive'
+    ' Project its not 100% finished, edit will be added, and its not responsive'
   );
 });
 unfinishedProjectsEl[1].addEventListener('click', () => {
