@@ -1,9 +1,7 @@
 const unfinishedProjectsEl = document.querySelectorAll('.unfinished');
 
 unfinishedProjectsEl[0].addEventListener('click', () => {
-  alert(
-    ' Project its not 100% finished, edit will be added, and its not responsive'
-  );
+  alert('Project is not responsive yet');
 });
 unfinishedProjectsEl[1].addEventListener('click', () => {
   alert(
