@@ -1,12 +1,5 @@
-const unfinishedProjectsEl = document.querySelectorAll('.unfinished');
+const unfinishedProjectsEl = document.querySelector('.unfinished');
 
-unfinishedProjectsEl[0].addEventListener('click', () => {
-  alert(
-    'Project is not responsive yet, and I am aware that edit has some bugs at the moment'
-  );
-});
-unfinishedProjectsEl[1].addEventListener('click', () => {
-  alert(
-    ' Project its not finished yet, very basic functionality is present, form is not validated at the moment! '
-  );
+unfinishedProjectsEl.addEventListener('click', () => {
+  alert('This project is not 100% finished I have just started to learn React');
 });
